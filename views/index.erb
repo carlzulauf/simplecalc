@@ -1,0 +1,14 @@
+<html>
+  <head><title>Simple Calc</title></head>
+  <body>
+    <h1>Calculate</h1>
+    <form method="post">
+      Value 1: <input type="text" name="value1" /><br />
+      Value 2: <input type="text" name="value2" /><br />
+      <input type="submit" value="calc" />
+    </form>
+    <% if @result %>
+      <h2>Result: <%= @result %></h2>
+    <% end %>
+  </body>
+</html>
